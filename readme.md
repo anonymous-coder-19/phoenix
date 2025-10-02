@@ -1,0 +1,3 @@
+# Admin Panel Web
+
+This project is an admin panel web application developed to practice and enhance my skills in building responsive user interfaces. Leveraging the power of Tailwind CSS, the design adapts seamlessly across various screen sizes, ensuring a consistent and user-friendly experience on both desktop and mobile devices. The panel includes essential features for managing data and provides a clean, modern layout. Through this project, I focused on mastering responsive design principles and efficient utility-first styling with Tailwind.
