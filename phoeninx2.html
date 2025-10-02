@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>PHOEINIX</title>
+  </head>
+  <body>
+    <nav
+      class="flex flex-row justify-between w-screen h-[13vh] bg-gray-50 items-center max-sm:hidden"
+    >
+      <div id="logo" class="flex flex-row gap-3 ml-10">
+        <img width="40" height="40" src="logo22.png" alt="" />
+        <h1 class="text-2xl font-bold text-gray-500">Phoenix</h1>
+      </div>
+      <div
+        id="input"
+        class="flex flex-row items-center w-[33vw] border-1 p-0.5 rounded-2xl border-gray-400 max-sm:hidden"
+      >
+        <i class="fas fa-search text-black ml-4"></i>
+        <input
+          type="text"
+          placeholder="search"
+          class="outline-none w-full pl-3"
+        />
+      </div>
+      <div id="icons" class="max-sm:hidden sm:flex gap-5 mr-10">
+        <div>
+          <i
+            class="fa-solid fa-star-of-life text-3xl text-orange-900 shadow-2xl"
+          ></i>
+        </div>
+        <div><i class="fa-regular fa-bell text-xl"></i></div>
+        <div><i class="fa-solid fa-list-ul text-xl"></i></div>
+        <div><img class="rounded-full" src="pflogo.webp" alt="" /></div>
+      </div>
+    </nav>
+    <hr />
+    <div id="main" class="w-screen bg-white flex">
+      <div
+        id="main1"
+        class="w-[23%] overflow-auto h-[86vh] bg-white max-md:hidden md:w-[35%] lg:w-[23%]"
+      >
+        <div id="home" class="flex gap-3 ml-4">
+          <div><i class="fa-solid fa-caret-down"></i></div>
+          <div><i class="fa-solid fa-clock-rotate-left"></i></div>
+          <div><h1>Home</h1></div>
+        </div>
+        <div id="project management" class="flex flex-col gap-3 ml-20 mt-4">
+          <div>
+            <a class="hover:text-blue-700 cursor-pointer" href="#"
+              >E commerce</a
+            >
+          </div>
+          <div>
+            <a class="hover:text-blue-700 cursor-pointer" href="#"
+              >project management</a
+            >
+          </div>
+          <div>
+            <a class="hover:text-blue-700 cursor-pointer" href="#">CRM</a>
+          </div>
+          <div>
+            <a class="hover:text-blue-700 cursor-pointer" href="#"
+              >Travel Agency</a
+            >
+          </div>
+          <div id="stock" class="flex gap-4">
+            <div>
+              <a class="hover:text-blue-700 cursor-pointer" href="#">stock</a>
+            </div>
+            <div>
+              <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                new
+              </button>
+            </div>
+          </div>
+          <div>
+            <a class="hover:text-blue-700 cursor-pointer" href="#"
+              >social feed</a
+            >
+          </div>
+        </div>
+        <div id="apps" class="flex flex-col px-5 gap-2">
+          <h1>APPS</h1>
+          <div id="1" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer">
+              <p>E commerce</p>
+            </div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-phone"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>CRM</p></div>
+          </div>
+          <div id="3" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-file-zipper"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer">
+              <p>project management</p>
+            </div>
+          </div>
+          <div id="4" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-bag-shopping"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer">
+              <p>Travel Agency</p>
+            </div>
+          </div>
+          <div id="5" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-dollar-sign"></i></div>
+            <div class="flex gap-3">
+              <p class="hover:text-blue-700 cursor-pointer">stock</p>
+              <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                new
+              </button>
+            </div>
+          </div>
+          <div id="6" class="flex gap-2">
+            <div><i class="fa-regular fa-message"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>CHAT</p></div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>Email</p></div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-bookmark"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>Events</p></div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-box"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>Kanban</p></div>
+          </div>
+          <div id="5" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-chart-bar"></i></div>
+            <div class="flex gap-3">
+              <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+              <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                new
+              </button>
+            </div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-share-nodes"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>social</p></div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-image"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer"><p>Gallery</p></div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-file"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer">
+              <p>File manager</p>
+            </div>
+          </div>
+          <div id="2" class="flex gap-2">
+            <div><i class="fa-solid fa-caret-right"></i></div>
+            <div><i class="fa-solid fa-calendar"></i></div>
+            <div class="hover:text-blue-700 cursor-pointer">
+              <p>calender</p>
+            </div>
+          </div>
+
+          <div id="pages" class="flex flex-col gap-2">
+            <h1>pages</h1>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-calendar"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>calender</p>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-calendar"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>calender</p>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-calendar"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>calender</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="pages" class="flex flex-col gap-2">
+            <h1>Modules</h1>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-calendar"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>calender</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-image"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>Gallery</p>
+              </div>
+            </div>
+            <div id="5" class="flex gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-chart-bar"></i></div>
+              <div class="flex gap-3">
+                <p class="hover:text-blue-700 cursor-pointer">Gantt chart</p>
+                <button class="px-4 py-0.1 bg-orange-500 rounded items-center">
+                  new
+                </button>
+              </div>
+            </div>
+            <div id="2" class="flex r gap-2">
+              <div><i class="fa-solid fa-caret-right"></i></div>
+              <div><i class="fa-solid fa-calendar"></i></div>
+              <div class="hover:text-blue-700 cursor-pointer">
+                <p>calender</p>
+              </div>
+            </div>
+          </div>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </div>
+        <hr />
+        <button
+          class="sticky bottom-0 left-0 right-0 w-full bg-white border border-gray-400 text-black py-3"
+        >
+          Collapsed view
+        </button>
+      </div>
+
+      <div
+        class="main_2 bg-gray-100 w-[80%] overflow-auto h-[86vh] max-md:w-full"
+      >
+        <div id="dashboard" class="flex flex-col gap-15 px-15 py-10">
+          <div id="text">
+            <h1 class="text-4xl font-bold">Ecommerce Dashboard</h1>
+            <p class="text-lg text-neutral-500">
+              Here’s what’s going on at your business right now
+            </p>
+          </div>
+          <div id="logos" class="flex gap-5 max-sm:flex-col">
+            <div id="green" class="flex gap-5">
+              <div id="g-img">
+                <img class="w-15 h-15" src="green.png" alt="" />
+              </div>
+              <div id="g-text">
+                <h2 class="text-xl font-bold">57 new orders</h2>
+                <p class="text-sm text-neutral-500">Awating processing</p>
+              </div>
+            </div>
+            <div id="orange" class="flex gap-5">
+              <div id="g-img">
+                <img class="w-15 h-15" src="orange.png" alt="" />
+              </div>
+              <div id="g-text">
+                <h2 class="text-xl font-bold">57 new orders</h2>
+                <p class="text-sm text-neutral-500">Awating processing</p>
+              </div>
+            </div>
+            <div id="red" class="flex gap-5">
+              <div id="g-img">
+                <img class="w-15 h-15" src="red.png" alt="" />
+              </div>
+              <div id="g-text">
+                <h2 class="text-xl font-bold">57 new orders</h2>
+                <p class="text-sm text-neutral-500">Awating processing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-[95%] mx-auto border-gray-400" />
+
+        <div
+          id="total-sells"
+          class="flex justify-around py-7 max-sm:flex-col max-sm:gap-8 max-sm:items-center"
+        >
+          <div id="total">
+            <h1 class="text-2xl font-bold">Total sells</h1>
+            <p class="text-neutral-500">Payment received across all channels</p>
+          </div>
+          <div id="total-btn">
+            <select
+              class="border rounded border-neutral-300 focus:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 px-20 py-1"
+            >
+              <option disabled selected>March1-31,2022</option>
+              <option>March1-31,2022</option>
+              <option>March1-31,2022</option>
+              <option>March1-31,2022</option>
+            </select>
+          </div>
+        </div>
+
+        <div
+          id="graph1"
+          class="w-[95%] h-[80vh] flex items-center justify-center ml-7"
+        >
+          <img class="cursor-pointer" src="graph.png" alt="" />
+        </div>
+        <div
+          id="card1"
+          class="w-full flex justify-around max-md:flex-col max-md:gap-4 md:flex-col md:gap-4 md:items-center lg:flex-row max-md:items-center"
+        >
+          <div
+            class="bg-white w-[45%] h-[55vh] max-md:h-[53vh] max-sm:w-[98%] max-md:w-[90%] md:w-[90%] lg:w-[45%] rounded flex flex-col"
+          >
+            <div id="orders" class="flex justify-around">
+              <div class="flex gap-5">
+                <div>
+                  <h1 class="text-xl font-bold">Total Orders</h1>
+                  <p class="text-sm text-neutral-500">Last 7 days</p>
+                </div>
+                <div>
+                  <button class="px-4 text-orange-600 rounded-xl bg-amber-100">
+                    -6.8
+                  </button>
+                </div>
+              </div>
+              <div><p class="text-xl font-bold">16276</p></div>
+            </div>
+            <div class="flex justify-center">
+              <img class="w-[30%] h-[20vh]" src="gp1.png" alt="" />
+            </div>
+            <div id="52M" class="flex flex-col gap-3 py-13">
+              <div id="52" class="flex gap-5">
+                <div class="flex gap-2 w-[80%] px-10">
+                  <button class="px-5 bg-blue-700"></button>
+                  <p class="text-sm">completed</p>
+                </div>
+                <div>52%</div>
+              </div>
+
+              <div id="52" class="flex">
+                <div class="flex gap-2 w-[85%] px-10">
+                  <button class="px-5 bg-neutral-300"></button>
+                  <p class="text-sm">Pending Payment</p>
+                </div>
+                <div>48%</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white w-[45%] h-[55vh] max-md:h-[53vh] max-sm:w-[98%] max-md:w-[90%] md:w-[90%] lg:w-[45%] rounded"
+          >
+            <div id="orders" class="flex justify-around">
+              <div class="flex gap-5">
+                <div>
+                  <h1 class="text-xl font-bold">Total Orders</h1>
+                  <p class="text-sm text-neutral-500">Last 7 days</p>
+                </div>
+                <div>
+                  <button class="px-4 text-orange-600 rounded-xl bg-amber-100">
+                    -6.8
+                  </button>
+                </div>
+              </div>
+              <div><p class="text-xl font-bold">16276</p></div>
+            </div>
+            <div class="flex justify-center">
+              <img class="w-[30%] h-[20vh]" src="gp1.png" alt="" />
+            </div>
+            <div id="52M" class="flex flex-col gap-3 py-13">
+              <div id="52" class="flex gap-5">
+                <div class="flex gap-2 w-[80%] px-10">
+                  <button class="px-5 bg-blue-700"></button>
+                  <p class="text-sm">completed</p>
+                </div>
+                <div>52%</div>
+              </div>
+
+              <div id="52" class="flex">
+                <div class="flex gap-2 w-[85%] px-10">
+                  <button class="px-5 bg-neutral-300"></button>
+                  <p class="text-sm">Pending Payment</p>
+                </div>
+                <div>48%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="card2"
+          class="w-full flex justify-around max-md:flex-col max-md:gap-4 py-4 md:flex-col md:gap-4 md:items-center lg:flex-row max-md:items-center"
+        >
+          <div
+            class="bg-white w-[45%] h-[55vh] max-md:h-[53vh] max-sm:w-[98%] max-md:w-[90%] md:w-[90%] lg:w-[45%] rounded"
+          >
+            <div id="orders" class="flex justify-around">
+              <div class="flex gap-5">
+                <div>
+                  <h1 class="text-xl font-bold">Total Orders</h1>
+                  <p class="text-sm text-neutral-500">Last 7 days</p>
+                </div>
+                <div>
+                  <button class="px-4 text-orange-600 rounded-xl bg-amber-100">
+                    -6.8
+                  </button>
+                </div>
+              </div>
+              <div><p class="text-xl font-bold">16276</p></div>
+            </div>
+            <div class="flex justify-center">
+              <img class="w-[30%] h-[20vh]" src="gp1.png" alt="" />
+            </div>
+            <div id="52M" class="flex flex-col gap-3 py-13">
+              <div id="52" class="flex gap-5">
+                <div class="flex gap-2 w-[80%] px-10">
+                  <button class="px-5 bg-blue-700"></button>
+                  <p class="text-sm">completed</p>
+                </div>
+                <div>52%</div>
+              </div>
+
+              <div id="52" class="flex">
+                <div class="flex gap-2 w-[85%] px-10">
+                  <button class="px-5 bg-neutral-300"></button>
+                  <p class="text-sm">Pending Payment</p>
+                </div>
+                <div>48%</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white w-[45%] h-[55vh] max-md:h-[53vh] max-sm:w-[98%] max-md:w-[90%] md:w-[90%] lg:w-[45%] rounded"
+          >
+            <div id="orders" class="flex justify-around">
+              <div class="flex gap-5">
+                <div>
+                  <h1 class="text-xl font-bold">Total Orders</h1>
+                  <p class="text-sm text-neutral-500">Last 7 days</p>
+                </div>
+                <div>
+                  <button class="px-4 text-orange-600 rounded-xl bg-amber-100">
+                    -6.8
+                  </button>
+                </div>
+              </div>
+              <div><p class="text-xl font-bold">16276</p></div>
+            </div>
+            <div class="flex justify-center">
+              <img class="w-[30%] h-[20vh]" src="gp1.png" alt="" />
+            </div>
+            <div id="52M" class="flex flex-col gap-3 py-13">
+              <div id="52" class="flex gap-5">
+                <div class="flex gap-2 w-[80%] px-10">
+                  <button class="px-5 bg-blue-700"></button>
+                  <p class="text-sm">completed</p>
+                </div>
+                <div>52%</div>
+              </div>
+
+              <div id="52" class="flex">
+                <div class="flex gap-2 w-[85%] px-10">
+                  <button class="px-5 bg-neutral-300"></button>
+                  <p class="text-sm">Pending Payment</p>
+                </div>
+                <div>48%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="latest"
+          class="flex justify-around w-full max-lg:flex-col max-lg:h-[20vh] h-[10vh]"
+        >
+          <div
+            id="1"
+            class="max-lg:flex-col max-lg:flex max-lg:justify-center max-lg:items-center"
+          >
+            <h1 class="text-2xl font-bold">Latest Revies</h1>
+            <p class="text-neutral-500">Payment received across all channels</p>
+          </div>
+          <div
+            id="2"
+            class="flex gap-3 h-[6vh] justify-center items-center max-lg:py-0 py-7"
+          >
+            <div
+              id="input"
+              class="flex max-sm:w-[30vw] flex-row items-center w-[23vw] focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-300 border-1 p-0.5 rounded border-gray-400"
+            >
+              <i class="fas fa-search text-black ml-4"></i>
+              <input
+                type="text"
+                placeholder="search"
+                class="outline-none w-full pl-3"
+              />
+            </div>
+
+            <button
+              class="bg-white text-black border-neutral-500 border-1 max-sm:hidden rounded px-10 cursor-pointer py-1"
+            >
+              All products
+            </button>
+            <button
+              class="bg-white text-black border-neutral-500 border-1 rounded max-sm:hidden px-5 cursor-pointer py-1"
+            >
+              ...
+            </button>
+          </div>
+        </div>
+        <hr class="w-[92%] mx-auto border border-neutral-400" />
+
+        <div id="checkbox-main" class="flex flex-col overflow-auto">
+          <div
+            id="products"
+            class="flex w-screen h-[8vh] gap-5 items-center justify-center"
+          >
+            <div class="px-10 w-[10vw]">
+              <input
+                type="checkbox"
+                class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+              />
+            </div>
+            <div class="w-[80vw]">
+              <h1 class="text-lg font-bold">Products</h1>
+            </div>
+            <div class="w-[30vw]">
+              <h1 class="text-lg font-bold">Customer</h1>
+            </div>
+            <div class="w-[20vw]">
+              <h1 class="text-lg font-bold">Rating</h1>
+            </div>
+            <div class="w-[70vw]">
+              <h1 class="text-lg font-bold">Review</h1>
+            </div>
+            <div class="w-[20vw]">
+              <h1 class="text-lg font-bold">status</h1>
+            </div>
+            <div class="w-[30vw]"><h1 class="text-lg font-bold">time</h1></div>
+          </div>
+          <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+
+          <div
+            id="products"
+            class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+          >
+            <div class="px-10 w-[10vw]">
+              <input
+                type="checkbox"
+                class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+              />
+            </div>
+            <div id="products" class="w-[80vw] flex gap-5 items-center">
+              <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                <img class="w-15 h-15" src="watch.png" alt="" />
+              </div>
+              <div>
+                <h1 class="text-blue-600 hover:underline cursor-pointer">
+                  Fibit sense advance smartwatch with tools fo...
+                </h1>
+              </div>
+            </div>
+            <div
+              id="customer"
+              class="flex gap-5 w-[30vw] justify-center items-center"
+            >
+              <div class="w-10 h-10 rounded-full bg-purple-400">
+                <h1
+                  class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                >
+                  R
+                </h1>
+              </div>
+              <div>
+                <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+              </div>
+            </div>
+            <div id="Rating" class="w-[20vw]">
+              <div class="">
+                <img class="w-25 h-25" src="stars.png" alt="" />
+              </div>
+            </div>
+            <div class="w-[70vw]">
+              <p class="text-sm text-neutral-500">
+                This Fitbit is fantastic! I was trying to be in better shape and
+                needed some motivation, so I decided to treat myself to a new
+                Fitbit.
+              </p>
+            </div>
+            <div class="w-[20vw]">
+              <div class="text-green-600 bg-green-200 border rounded">
+                Approved
+              </div>
+            </div>
+            <div class="w-[30vw]">
+              <p>just now</p>
+            </div>
+          </div>
+          <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+
+          <div id="iphone">
+            <div
+              id="products"
+              class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+            >
+              <div class="px-10 w-[10vw]">
+                <input
+                  type="checkbox"
+                  class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div id="products" class="w-[80vw] flex gap-5 items-center">
+                <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                  <img class="w-15 h-15" src="watch.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-blue-600 hover:underline cursor-pointer">
+                    Fibit sense advance smartwatch with tools fo...
+                  </h1>
+                </div>
+              </div>
+              <div
+                id="customer"
+                class="flex gap-5 w-[30vw] justify-center items-center"
+              >
+                <div class="w-10 h-10 rounded-full bg-purple-400">
+                  <h1
+                    class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                  >
+                    R
+                  </h1>
+                </div>
+                <div>
+                  <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+                </div>
+              </div>
+              <div id="Rating" class="w-[20vw]">
+                <div class="">
+                  <img class="w-25 h-25" src="stars.png" alt="" />
+                </div>
+              </div>
+              <div class="w-[70vw]">
+                <p class="text-sm text-neutral-500">
+                  This Fitbit is fantastic! I was trying to be in better shape
+                  and needed some motivation, so I decided to treat myself to a
+                  new Fitbit.
+                </p>
+              </div>
+              <div class="w-[20vw]">
+                <div class="text-green-600 bg-green-200 border rounded">
+                  Approved
+                </div>
+              </div>
+              <div class="w-[30vw]">
+                <p>just now</p>
+              </div>
+            </div>
+            <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+          </div>
+          <div id="mackbook">
+            <div
+              id="products"
+              class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+            >
+              <div class="px-10 w-[10vw]">
+                <input
+                  type="checkbox"
+                  class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div id="products" class="w-[80vw] flex gap-5 items-center">
+                <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                  <img class="w-15 h-15" src="watch.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-blue-600 hover:underline cursor-pointer">
+                    Fibit sense advance smartwatch with tools fo...
+                  </h1>
+                </div>
+              </div>
+              <div
+                id="customer"
+                class="flex gap-5 w-[30vw] justify-center items-center"
+              >
+                <div class="w-10 h-10 rounded-full bg-purple-400">
+                  <h1
+                    class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                  >
+                    R
+                  </h1>
+                </div>
+                <div>
+                  <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+                </div>
+              </div>
+              <div id="Rating" class="w-[20vw]">
+                <div class="">
+                  <img class="w-25 h-25" src="stars.png" alt="" />
+                </div>
+              </div>
+              <div class="w-[70vw]">
+                <p class="text-sm text-neutral-500">
+                  This Fitbit is fantastic! I was trying to be in better shape
+                  and needed some motivation, so I decided to treat myself to a
+                  new Fitbit.
+                </p>
+              </div>
+              <div class="w-[20vw]">
+                <div class="text-green-600 bg-green-200 border rounded">
+                  Approved
+                </div>
+              </div>
+              <div class="w-[30vw]">
+                <p>just now</p>
+              </div>
+            </div>
+            <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+          </div>
+          <div id="imack">
+            <div
+              id="products"
+              class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+            >
+              <div class="px-10 w-[10vw]">
+                <input
+                  type="checkbox"
+                  class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div id="products" class="w-[80vw] flex gap-5 items-center">
+                <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                  <img class="w-15 h-15" src="watch.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-blue-600 hover:underline cursor-pointer">
+                    Fibit sense advance smartwatch with tools fo...
+                  </h1>
+                </div>
+              </div>
+              <div
+                id="customer"
+                class="flex gap-5 w-[30vw] justify-center items-center"
+              >
+                <div class="w-10 h-10 rounded-full bg-purple-400">
+                  <h1
+                    class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                  >
+                    R
+                  </h1>
+                </div>
+                <div>
+                  <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+                </div>
+              </div>
+              <div id="Rating" class="w-[20vw]">
+                <div class="">
+                  <img class="w-25 h-25" src="stars.png" alt="" />
+                </div>
+              </div>
+              <div class="w-[70vw]">
+                <p class="text-sm text-neutral-500">
+                  This Fitbit is fantastic! I was trying to be in better shape
+                  and needed some motivation, so I decided to treat myself to a
+                  new Fitbit.
+                </p>
+              </div>
+              <div class="w-[20vw]">
+                <div class="text-green-600 bg-green-200 border rounded">
+                  Approved
+                </div>
+              </div>
+              <div class="w-[30vw]">
+                <p>just now</p>
+              </div>
+            </div>
+            <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+          </div>
+          <div id="razer">
+            <div
+              id="products"
+              class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+            >
+              <div class="px-10 w-[10vw]">
+                <input
+                  type="checkbox"
+                  class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div id="products" class="w-[80vw] flex gap-5 items-center">
+                <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                  <img class="w-15 h-15" src="watch.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-blue-600 hover:underline cursor-pointer">
+                    Fibit sense advance smartwatch with tools fo...
+                  </h1>
+                </div>
+              </div>
+              <div
+                id="customer"
+                class="flex gap-5 w-[30vw] justify-center items-center"
+              >
+                <div class="w-10 h-10 rounded-full bg-purple-400">
+                  <h1
+                    class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                  >
+                    R
+                  </h1>
+                </div>
+                <div>
+                  <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+                </div>
+              </div>
+              <div id="Rating" class="w-[20vw]">
+                <div class="">
+                  <img class="w-25 h-25" src="stars.png" alt="" />
+                </div>
+              </div>
+              <div class="w-[70vw]">
+                <p class="text-sm text-neutral-500">
+                  This Fitbit is fantastic! I was trying to be in better shape
+                  and needed some motivation, so I decided to treat myself to a
+                  new Fitbit.
+                </p>
+              </div>
+              <div class="w-[20vw]">
+                <div class="text-green-600 bg-green-200 border rounded">
+                  Approved
+                </div>
+              </div>
+              <div class="w-[30vw]">
+                <p>just now</p>
+              </div>
+            </div>
+            <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+          </div>
+          <div id="playstation">
+            <div
+              id="products"
+              class="flex w-screen h-[30vh] items-center gap-5 justify-center"
+            >
+              <div class="px-10 w-[10vw]">
+                <input
+                  type="checkbox"
+                  class="text-green-600 border-gray-300 rounded focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div id="products" class="w-[80vw] flex gap-5 items-center">
+                <div class="border-1 rounded-xl border-neutral-400 w-[5vw]">
+                  <img class="w-15 h-15" src="watch.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-blue-600 hover:underline cursor-pointer">
+                    Fibit sense advance smartwatch with tools fo...
+                  </h1>
+                </div>
+              </div>
+              <div
+                id="customer"
+                class="flex gap-5 w-[30vw] justify-center items-center"
+              >
+                <div class="w-10 h-10 rounded-full bg-purple-400">
+                  <h1
+                    class="text-blue-600 font-bold py-2 flex items-center justify-center"
+                  >
+                    R
+                  </h1>
+                </div>
+                <div>
+                  <p class="cursor-pointer hover:underline">Richard Dawkins</p>
+                </div>
+              </div>
+              <div id="Rating" class="w-[20vw]">
+                <div class="">
+                  <img class="w-25 h-25" src="stars.png" alt="" />
+                </div>
+              </div>
+              <div class="w-[70vw]">
+                <p class="text-sm text-neutral-500">
+                  This Fitbit is fantastic! I was trying to be in better shape
+                  and needed some motivation, so I decided to treat myself to a
+                  new Fitbit.
+                </p>
+              </div>
+              <div class="w-[20vw]">
+                <div class="text-green-600 bg-green-200 border rounded">
+                  Approved
+                </div>
+              </div>
+              <div class="w-[30vw]">
+                <p>just now</p>
+              </div>
+            </div>
+            <hr class="border ml-9 border-neutral-400 rounded w-[94vw]" />
+          </div>
+        </div>
+        <div id="map">
+          <iframe
+            class="w-full max-md:w-[100vw] h-[80vh] py-6"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1758491622816!5m2!1sen!2s"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div id="l-graph" class="w-full max-md:w-[100vw] justify-around flex">
+          <div id="graph11" class="flex flex-col w-[48%]">
+            <div>
+              <h1 class="text-2xl font-bold">Projection vs actual</h1>
+              <p class="text-neutral-500">
+                Actual earnings vs projected earnings
+              </p>
+            </div>
+            <div><img src="graph11.png" alt="" /></div>
+          </div>
+          <div id="graph22" class="flex flex-col w-[48%]">
+            <div>
+              <h1 class="text-2xl font-bold">Projection vs actual</h1>
+              <p class="text-neutral-500">
+                Actual earnings vs projected earnings
+              </p>
+            </div>
+            <div><img src="graph22.png" alt="" /></div>
+          </div>
+        </div>
+        <footer
+          class="bg-white border border-neutral-500 h-[10vh] flex justify-around items-center w-full"
+        >
+          <p>
+            Thank you for creating with Phoenix | 2025 ©
+            <span class="text-blue-500 hover:text-blue-700 hover:underline"
+              >Themewagon</span
+            >
+          </p>
+          <h1 class="text-neutral-500">v1.23.0</h1>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
